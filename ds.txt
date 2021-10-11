@@ -1,2 +1,6 @@
 
+*/1 * * * *  /usr/bin/vnstat -u -i eth0
+
+0 4 1 jan *  /root/.awsll/vnstat.sh
+
 0 0 * * * /bin/bash /root/.awsll/serviceon.sh
