@@ -34,8 +34,8 @@ beikong0_chushihua(){
 		mkdir /root/.awsll/
 		wget https://raw.githubusercontent.com/54665/yppro/master/vnstat.sh -O /root/.awsll/vnstat.sh
 		chmod +x /root/.awsll/vnstat.sh
-		wget https://raw.githubusercontent.com/54665/yppro/master/awsoff.sh -O /root/.awsll/awsoff.sh
-		chmod +x /root/.awsll/awsoff.sh
+		wget https://raw.githubusercontent.com/54665/yppro/master/serviceoff.sh -O /root/.awsll/serviceoff.sh
+		chmod +x /root/.awsll/serviceoff.sh
 		
 	read -p "是否下载300G版本脚本[y/N]" down_files_1
 	if [[ "$down_files_1" =~ ^[yY]$ ]]; then
@@ -84,8 +84,8 @@ beikong1_chushihua(){
 		mkdir /root/.awsll/
 		wget https://raw.githubusercontent.com/54665/yppro/master/vnstat.sh -O /root/.awsll/vnstat.sh
 		chmod +x /root/.awsll/vnstat.sh
-		wget https://raw.githubusercontent.com/54665/yppro/master/awsoff.sh -O /root/.awsll/awsoff.sh
-		chmod +x /root/.awsll/awsoff.sh
+		wget https://raw.githubusercontent.com/54665/yppro/master/serviceoff.sh -O /root/.awsll/serviceoff.sh
+		chmod +x /root/.awsll/serviceoff.sh
 
 	read -p "是否下载1T版本脚本[y/N]" down_files_1
 	if [[ "$down_files_1" =~ ^[yY]$ ]]; then
@@ -133,8 +133,8 @@ beikong2_chushihua(){
 		mkdir /root/.awsll/
 		wget https://raw.githubusercontent.com/54665/yppro/master/vnstat.sh -O /root/.awsll/vnstat.sh
 		chmod +x /root/.awsll/vnstat.sh
-		wget https://raw.githubusercontent.com/54665/yppro/master/awsoff.sh -O /root/.awsll/awsoff.sh
-		chmod +x /root/.awsll/awsoff.sh
+		wget https://raw.githubusercontent.com/54665/yppro/master/serviceoff.sh -O /root/.awsll/serviceoff.sh
+		chmod +x /root/.awsll/serviceoff.sh
 
 	read -p "是否下载5G版本脚本[y/N]" down_files_1
 	if [[ "$down_files_1" =~ ^[yY]$ ]]; then
