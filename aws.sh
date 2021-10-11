@@ -36,6 +36,8 @@ beikong0_chushihua(){
 		chmod +x /root/.awsll/vnstat.sh
 		wget https://raw.githubusercontent.com/54665/yppro/master/serviceoff.sh -O /root/.awsll/serviceoff.sh
 		chmod +x /root/.awsll/serviceoff.sh
+		wget https://raw.githubusercontent.com/54665/yppro/master/serviceon.sh -O /root/.awsll/serviceon.sh
+		chmod +x /root/.awsll/serviceon.sh
 		
 	read -p "是否下载300G版本脚本[y/N]" down_files_1
 	if [[ "$down_files_1" =~ ^[yY]$ ]]; then
@@ -86,6 +88,8 @@ beikong1_chushihua(){
 		chmod +x /root/.awsll/vnstat.sh
 		wget https://raw.githubusercontent.com/54665/yppro/master/serviceoff.sh -O /root/.awsll/serviceoff.sh
 		chmod +x /root/.awsll/serviceoff.sh
+		wget https://raw.githubusercontent.com/54665/yppro/master/serviceon.sh -O /root/.awsll/serviceon.sh
+		chmod +x /root/.awsll/serviceon.sh
 
 	read -p "是否下载1T版本脚本[y/N]" down_files_1
 	if [[ "$down_files_1" =~ ^[yY]$ ]]; then
@@ -135,6 +139,8 @@ beikong2_chushihua(){
 		chmod +x /root/.awsll/vnstat.sh
 		wget https://raw.githubusercontent.com/54665/yppro/master/serviceoff.sh -O /root/.awsll/serviceoff.sh
 		chmod +x /root/.awsll/serviceoff.sh
+		wget https://raw.githubusercontent.com/54665/yppro/master/serviceon.sh -O /root/.awsll/serviceon.sh
+		chmod +x /root/.awsll/serviceon.sh
 
 	read -p "是否下载5G版本脚本[y/N]" down_files_1
 	if [[ "$down_files_1" =~ ^[yY]$ ]]; then
